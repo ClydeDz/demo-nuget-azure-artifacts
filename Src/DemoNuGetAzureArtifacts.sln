@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2003
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DemoNuGetAzureArtifacts", "DemoNuGetAzureArtifacts\DemoNuGetAzureArtifacts.csproj", "{2187FBA9-875B-4882-B0ED-8A97ADDD414F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DemoNuGetAzureArtifacts.Test", "DemoNuGetAzureArtifacts.Test\DemoNuGetAzureArtifacts.Test.csproj", "{39AD5554-467D-428E-B63D-17198FACDC45}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution items", "Solution items", "{38856D9D-2C1C-4A57-B5F5-A24282C45B2C}"
+	ProjectSection(SolutionItems) = preProject
+		DemoNuGetAzureArtifacts.nuspec = DemoNuGetAzureArtifacts.nuspec
+		LICENSE.md = LICENSE.md
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2187FBA9-875B-4882-B0ED-8A97ADDD414F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2187FBA9-875B-4882-B0ED-8A97ADDD414F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2187FBA9-875B-4882-B0ED-8A97ADDD414F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2187FBA9-875B-4882-B0ED-8A97ADDD414F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{39AD5554-467D-428E-B63D-17198FACDC45}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{39AD5554-467D-428E-B63D-17198FACDC45}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{39AD5554-467D-428E-B63D-17198FACDC45}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{39AD5554-467D-428E-B63D-17198FACDC45}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {609FB5FF-02C8-481C-935A-CA1534B41587}
+	EndGlobalSection
+EndGlobal
