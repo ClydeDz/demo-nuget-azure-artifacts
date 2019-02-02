@@ -9,11 +9,15 @@
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
-    <OutputPath>bin\Debug\lib\netcoreapp2.1\</OutputPath>
+    <OutputPath>bin\Debug\lib\</OutputPath>
   </PropertyGroup>
 
   <Target Name="PostBuild" AfterTargets="PostBuildEvent">
     <Exec Command="copy /Y &quot;$(SolutionDir)DemoNuGetAzureArtifacts.nuspec&quot; &quot;$(SolutionDir)$(SolutionName)\bin\$(ConfigurationName)\DemoNuGetAzureArtifacts.nuspec&quot;&#xD;&#xA;copy /Y &quot;$(SolutionDir)License.md&quot; &quot;$(SolutionDir)$(SolutionName)\bin\$(ConfigurationName)\License.md&quot;" />
   </Target>
+
+  <ItemGroup>
+    <PackageReference Include="DemoNugetByClydeDSouza" Version="1.0.8-alpha" />
+  </ItemGroup>
 
 </Project>
