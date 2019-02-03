@@ -19,7 +19,7 @@ namespace DemoNuGetAzureArtifacts.Test
         }
 
         [Fact]
-        public void AddAddInternal_Test()
+        public void AddInternal_Test()
         {
             int result = DemoNuGetAzureArtifactsObject.AddInternal(85, 5);
             Assert.Equal(90, result);
