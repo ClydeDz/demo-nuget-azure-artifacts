@@ -13,5 +13,10 @@ namespace DemoNuGetAzureArtifacts
         {
             return DemoOne.Add(c, d);
         }
+
+        internal static int AddInternal(int e, int f)
+        {
+            return e + f;
+        }
     }
 }

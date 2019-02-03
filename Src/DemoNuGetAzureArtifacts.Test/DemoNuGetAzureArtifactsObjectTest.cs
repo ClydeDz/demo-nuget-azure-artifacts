@@ -17,5 +17,12 @@ namespace DemoNuGetAzureArtifacts.Test
             int result = DemoNuGetAzureArtifactsObject.AddExternal(12, 5);
             Assert.Equal(17, result);
         }
+
+        [Fact]
+        public void AddAddInternal_Test()
+        {
+            int result = DemoNuGetAzureArtifactsObject.AddInternal(85, 5);
+            Assert.Equal(90, result);
+        }
     }
 }

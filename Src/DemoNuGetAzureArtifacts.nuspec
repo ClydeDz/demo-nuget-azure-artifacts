@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2013/05/nuspec.xsd">
   <metadata>
     <id>DemoNuGetAzureArtifacts</id>
-    <version>1.0.2-alpha</version>
+    <version>1.0.3-alpha</version>
     <title>Demo NuGet Azure Artifacts</title>
     <authors>Clyde D'Souza</authors>
     <owners>Clyde D'Souza</owners>
@@ -11,8 +11,10 @@
     <projectUrl>https://github.com/ClydeDz/demo-nuget/</projectUrl>
     <iconUrl>https://via.placeholder.com/64</iconUrl>
     <description>This package is used for demo and/or experimentation only. Please do not use this package, especially in production environments.</description>
+    <summary>Experimentation NuGet only. Please do not use this package, especially in production environments.</summary>
+    <releaseNotes>Experimentation NuGet only. No release notes available.</releaseNotes>
     <copyright>Copyright © 2019 Clyde D'Souza</copyright>
-    <tags>demo, nuget, experiment</tags>
+    <tags>demo nuget experiment</tags>
     <dependencies>
       <group targetFramework="netcoreapp2.1">
         <dependency id="DemoNugetByClydeDSouza" version="1.0.8-alpha" />
